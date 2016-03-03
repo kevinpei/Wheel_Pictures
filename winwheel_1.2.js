@@ -38,8 +38,8 @@ Version History:
 // VARIABLES YOU CAN ALTER...
 var canvasId         = "myDrawingCanvas";   // Id of the canvas element on the page the wheel is to be rendered on.
 /* var wheelImageName   = "https://vlab.decisionsciences.columbia.edu/DanWall/winwheel/circle_withlines.png";	// File name of the image for the wheel. */
-var spinButtonImgOn  = "https://vlab.decisionsciences.columbia.edu/DanWall/winwheel/spin_on.png";		// Name / path to the images for the spin button.
-var spinButtonImgOff = "https://vlab.decisionsciences.columbia.edu/DanWall/winwheel/spin_off.png";
+var spinButtonImgOn  = "https://raw.githubusercontent.com/kevinpei/Wheel_Pictures/master/spin_on.png";		// Name / path to the images for the spin button.
+var spinButtonImgOff = "https://raw.githubusercontent.com/kevinpei/Wheel_Pictures/master/spin_off.png";
 var theSpeed         = 5; 		 // Controls how often the spin function is called (is miliseconds value for animation timer).
 var pointerAngle     = 0;  	 	 // The angle / location around the wheel where the pointer indicaing the prize is located. Can be any value you like, 0 is top (12 oclock) 180 is bottom (6 o'clock) etc.
 var doPrizeDetection = true; 	 // Set to true if you want the code to detect the prize the user has won when the spinning has stopped. Prizes need to be specified in the prizes array.
