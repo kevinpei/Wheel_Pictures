@@ -20,7 +20,7 @@ body
 /* Sets the background image for the wheel */
 td.the_wheel
 {
-	background-image: url("https://raw.githubusercontent.com/kevinpei/Wheel_Pictures/master/wheel_back.png");
+	background-image: url("https://vlab.decisionsciences.columbia.edu/DanWall/winwheel/wheel_back.png");
 	background-position: center;
 	background-repeat: none;
 }
